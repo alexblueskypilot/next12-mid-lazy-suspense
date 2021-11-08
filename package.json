@@ -2,10 +2,9 @@
     "name": "next-12",
     "private": true,
     "scripts": {
-        "dev": "next dev",
+        "dev": "next",
         "build": "next build",
         "start": "next start -p $PORT",
-        "postbuild": "npm run build",
         "lint": "next lint"
     },
     "dependencies": {
